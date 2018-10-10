@@ -1,0 +1,843 @@
+@font-face{
+    font-family: 'Roboto Light';
+    font-weight: lighter;
+    font-style: normal;
+    src: url("../font/Roboto-Light.ttf");
+
+}
+@font-face{
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-style: normal;
+    src: url("../font/Roboto-Regular.ttf");
+}
+@font-face{
+    font-family: 'Roboto Thin';
+    font-weight: normal;
+    font-style: normal;
+    src: url("../font/Roboto-Thin.ttf");
+}
+@font-face{
+    font-family: 'Yesteryear';
+    font-weight: normal;
+    font-style: normal;
+    src: url("../font/Yesteryear-Regular.ttf");
+}
+@font-face{
+    font-family: 'Lato Hairline';
+    font-weight: normal;
+    font-style: normal;
+    src: url("../font/Lato-Hairline.ttf");
+}
+@font-face{
+    font-family: 'Lato Bold';
+    font-weight: bolder;
+    font-style: normal;
+    src: url("../font/Lato-Bold.ttf");
+}
+@font-face{
+    font-family: 'Lato';
+    font-weight: normal;
+    font-style: normal;
+    src: url("../font/Lato-Regular.ttf");
+}
+
+.header{
+    background-color: white;
+}
+.header .centro{
+    margin: auto 0;
+
+}
+.header .tienda{
+    margin: auto 0;
+}
+.tienda .ultima{
+    display: flex;
+    justify-content: flex-end;
+}
+.login{
+    display: flex;
+    flex-flow:column;
+    margin-right: 50px;
+    justify-content: center;
+}
+.login a{
+    text-align: right;
+    font-size: 13px;
+    color: #777777;
+    padding: 5px;
+
+    font-family: "Roboto";
+
+}
+.shop{
+    position: relative;
+}
+.compras-totales{
+    position: absolute;
+    color: white;
+    font-size: 26px;
+    font-family: 'Roboto Light';
+    font-weight: lighter;
+    top: calc(50% - 15px);
+    left: calc(50% - 13px);
+}
+.compras-totales p{
+    margin: 0;
+}
+.login a:hover{
+    text-decoration: none;
+    color: #f73636;
+}
+#sign-logo, #user-logo{
+    fill: #777777;
+    margin-top: -4px;
+    margin-left: 5px;
+}
+a:hover #sign-logo, a:hover #user-logo{
+    fill: #f73636;
+
+}
+.sign-in span{
+   padding-bottom: -5px;
+}
+.centro .opciones{
+    display: flex;
+    justify-content: space-between;
+}
+.centro .input-group{
+    width: 80%;
+    margin: 0 auto;
+}
+.centro .input-group::before{
+    content: "";
+}
+.centro ul li{
+    list-style-type: none;
+    font-size: 13px;
+    text-align: center;
+    font-family: "Roboto Light";
+    font-weight: lighter;
+    width: 33.3333%;
+    padding: 5px;
+
+}
+.centro ul li a {
+    text-decoration: none;
+    color: #777777;
+}
+.centro ul li:not(:last-child){
+    border-right: 1px solid #e0e0e0;
+}
+.logo .slogan{
+    color: #777777;
+    font-size: 12px;
+    text-align: center;
+    font-family: "Roboto Light";
+    font-weight: lighter;
+    margin-top: -20px;
+}
+.logo a{
+    font-family: 'Lato';
+    font-size: 80px;
+    text-transform: uppercase;
+    color: black;
+}
+.logo a:hover{
+    text-decoration: none;
+}
+.logo a .ored{
+    color: #f73636;
+}
+.menu{
+    background-color: black;
+    color: white;
+}
+.menu .container{
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-nav{
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar-nav .nav-item{
+    flex-grow: 1;
+    border-left: 2px solid #383838;
+}
+.navbar-nav .nav-item:last-child{
+    border-right: 2px solid #383838;
+}
+.navbar-nav .nav-item:hover{
+    background-color: #f73636;
+}
+.nav-item a{
+    font-family: 'Roboto';
+    font-size: 19px;
+    text-transform: uppercase;
+    text-align: center;
+    height: 60px;
+    line-height: 44px;
+}
+.nav-item a:hover{
+    color: white !important ;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+.dropdown-menu{
+    background-color: black;
+}
+.dropdown-item{
+    color: white;
+
+}
+.blank-space{
+    height: 50px;
+}
+.bg{
+    background-size: cover;
+    background-position: center;
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev {
+    background-color: white;
+    width: 46px;
+    opacity: 1;
+    height: 46px;
+    top: calc(50% - 23px);
+}
+
+.carousel-control-next {
+    background-color: black;
+    width: 46px;
+    opacity: 1;
+    height: 46px;
+    top: calc(50% - 23px);
+}
+.carousel-caption{
+    left: calc(50% - 390px);
+    width: 780px;
+    background-color: rgba(247,54,54, 0.8);
+
+    bottom: 50px;
+}
+.carousel-caption .title{
+    font-size: 110px;
+    font-family: "Lato Hairline";
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 1em;
+
+    text-align: center;
+}
+.carousel-caption .subtitle{
+    font-size: 100px;
+    font-family: "Lato";
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 1em;
+
+    text-align: center;
+}
+.carousel-caption .content{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.carousel-caption .btn{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+.categorias{
+    background-image: url("../img/categorias-bg.png");
+    height: 650px;
+}
+.categorias .container{
+    margin: auto;
+}
+.categorias .title{
+    font-size: 62px;
+    font-family: "Lato Bold";
+    line-height: 1em;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 0;
+    margin-top: 1Rem;
+
+    text-align: center;
+
+}
+.categorias .subtitle{
+    font-size: 50px;
+    font-family: "Lato Hairline";
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 1em;
+
+    text-align: center;
+
+}
+.categorias .cat:hover .title{
+    color: #f73636;
+}
+
+.categorias img{
+    position: relative;
+}
+
+.categorias .cat:hover .img-cont::after{
+    content: "";
+    position: absolute;
+    margin-top: -5px;
+
+
+    left: 0;
+
+    right:0;
+    border-bottom: solid 5px red;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.categorias .cat{
+    cursor: pointer;
+}
+
+.welcome{
+    background-image: url("../img/welcome-bg.png");
+    height: 570px;
+}
+.welcome .container{
+    margin: auto;
+}
+.welcome .col{
+    text-align: center;
+}
+.welcome .title{
+    font-size: 70px;
+    font-family: "Lato Bold";
+    line-height: 1em;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 0;
+
+    text-align: center;
+
+}
+.welcome .subtitle{
+    font-size: 70px;
+    font-family: "Lato Hairline";
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 1em;
+
+    text-align: center;
+
+}
+.welcome .content, .categorias .content{
+    font-size: 13px;
+    font-family: "Roboto Light";
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    margin-top: 1em;
+
+}
+.welcome .btn{
+    margin: 0 auto;
+    background-color: #f73636;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 0;
+}
+.welcome .btn:hover  {
+    background-color: black;
+}
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: none;
+  }
+  
+
+
+
+/*seccion inventario  y productos*/
+
+.inventario .title{
+    margin-top: 50px;
+    border-bottom: 4px solid #e7e7e7;
+    margin-bottom:50px;
+}
+.inventario .botones{
+    margin: 0 auto;
+    display:flex;
+}
+.inventario .botones a{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #777777;
+    font-family: "Roboto";
+    font-size: 19px;
+}
+.inventario .botones a:hover{
+    text-decoration: none;
+}
+.inventario .botones a.selected{
+    color: #181818;
+}
+.inventario .botones a:not(:last-child){
+    border-right: 1px solid #e0e0e0;
+}
+
+.inventario .productos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-product{
+    width: 272px;
+    height: 510px;
+    margin-bottom: 35px;
+}
+.card-top{
+    width: 100%;
+    height: 430px;
+    background-color: #f6f6f6;
+    position: relative;
+}
+.photo{
+    position:absolute;
+    top:0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo:hover::after{
+    content:'';
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:1;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.85) 100%);
+
+}
+.card-top .boton{
+    z-index: 10;
+    position: absolute;
+    bottom: 60px;
+    padding: 18px 48px;
+    background-color: #f73636;
+    border-radius: 0;
+    font-size: 19px;
+    font-family: "Roboto Light";
+    font-weight: lighter;
+    color: white;
+    visibility: hidden;
+}
+.photo:hover .boton{
+    visibility: visible;
+}
+.card-top .boton:hover{
+    text-decoration: none;
+    
+}
+.card-top .boton:active{
+    background-color: black;
+}
+.photo img{
+    margin: auto;
+
+}
+.card-top .more{
+    position:absolute;
+    bottom:30px;
+    z-index: 10;
+    font-size: 15px;
+    font-family: "Roboto Light";
+    font-weight: lighter;
+    color: white;
+    visibility: hidden;
+}
+.more span{
+    font-family: initial;
+    font-size: 20px;
+}
+.photo:hover .more{
+    visibility: visible;
+}
+.more:hover{
+    text-decoration: none;
+}
+.photo .is-new{
+    position: absolute;
+    color: #181818;
+    z-index: 10;
+    font-size: 13px;
+    font-family: "Roboto Light";
+    font-weight: lighter;
+    background-color: white;
+    padding: 5px;
+    top: 20px;
+    right: 20px;
+
+}
+.photo .oferta{
+    position: absolute;
+    z-index: 10;
+    top: 20px;
+    left: 20px;
+
+}
+.sale{
+    background-color: #f73636;
+    color: white;
+    padding: 5px;
+    font-size: 13px;
+    font-family: "Roboto Light";
+    font-weight: lighter;
+
+}
+.sale-desc{
+    font-family: "Lato";
+    font-size: 18px;
+}
+.card-price{
+    margin-top: 15px;
+}
+.card-price .desc{
+    color: #181818;
+    margin-bottom: 0;
+
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: normal;
+}
+.card-price .price-tag{
+    color: #181818;
+    margin-bottom: 0;
+    font-size: 33px;
+    font-family: "Lato";
+
+}
+
+
+
+
+
+.compartir{
+    background-image: url("../img/compartir-bg.png");
+    height: 530px;
+}
+.compartir .container {
+    margin: auto;
+}
+.compartir .columna{
+    display: grid;
+    grid-template-columns: 200px auto;
+
+}
+.compartir .info{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.compartir .info .title{
+    font-family: "Lato Bold";
+    font-size: 36px;
+    color: #181818;
+    text-transform: uppercase;   
+    margin-bottom: 0; 
+    line-height: 2rem;
+}
+.compartir .info .subtitle{
+    font-family: "Lato Hairline";
+    font-size: 36px;
+    color: #181818;
+    text-transform: uppercase; 
+    margin-bottom: 10px;   
+}
+.compartir .info .content{
+    font-family: "Roboto Light";
+    font-size: 13px;
+    color: #181818;
+    line-height: 22px;
+}
+.circulo{
+
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    background-color: rgba(24,24,24,0.9);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-rojo{
+    background-color: rgba(247,54,54,0.9);
+}
+.hand-like{
+    width: 75px;
+    height: 75px;
+}
+.blog{
+    background-image: url("../img/blog-bg.png");
+    height: 1008px;
+}
+.blog h3{
+    font-family: "Lato Hairline";
+    font-size: 40px;
+    color: white;
+    margin: 60px auto;
+
+}
+.blog .bold{
+    font-family: "Lato Bold";
+    font-size: 40px;
+    color: #f73636;
+}
+
+.blog .date{
+    font-family: "Roboto Light";
+    font-size: 18px;
+    text-align: center;
+    color: #888888;
+    margin-top: 50px;
+}
+.blog .title{
+    font-family: "Lato Bold";
+    font-weight: bolder;
+    font-size: 21px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.blog .content{
+    font-family: "Roboto Light";
+    color: #888888;
+    font-size: 13px;
+    text-align: center;
+}
+.blog .comments{
+    text-align: center;
+    color: white;
+    font-size: 1.25rem;
+}
+/*news*/
+.news
+{
+    background-image: url("../img/news-bg.png");
+    height: 570px;
+}
+.news .container{
+    margin: auto;
+}
+.news .texto{
+    font-family: "Roboto Light";
+    font-size: 13px;
+    font-weight: lighter;
+    margin: auto 25px;
+    padding-bottom: 40px;
+
+}
+.rojo{
+    background-color: rgba(247, 54,54, 0.9);
+    text-align: center;
+    color: white;
+
+    
+}
+.blanco{
+    background-color: rgba(255,255,255,0.9);
+    text-align: center;
+}
+.negro{
+    background-color: rgba(0,0,0,0.9);
+    text-align: center;
+    color: white;
+}
+#news-clearance, #news-free{
+    font-family: "Yesteryear";
+    font-size: 90px;
+    margin-bottom: 0;
+}
+#news-new{
+    font-family: "Lato Bold";
+    font-weight: bolder;
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-top: 29px;
+}
+.promo{
+    font-family: "Lato Hairline";
+    margin-top: -30px;
+
+    line-height: 35px;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+/*redes*/
+
+.redes{
+    background: black;
+    height: 130px;
+}
+.redes .container{
+    margin: auto;
+    
+}
+.redes .col-lg-8{
+    margin:auto;
+}
+.input-group>.form-control:not(:last-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.input-group::before{
+    content: "Newsletter";
+    color: white;
+    padding-right: 15px;
+    font-family: "Roboto Light";
+    font-size: 19px;
+    font-weight: lighter;
+    padding-top: 5px;
+}
+#basic-addon2{
+    background-color: #ededed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socials{
+    display: flex;
+}
+.socials p{
+    margin: auto 15px auto 0;
+    color: white;
+    font-family: "Roboto Light";
+    font-size: 19px;
+    font-weight: lighter;
+}
+.social-btn{
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+    background-color: #303030;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.social-btn:hover{
+    background-color: white;
+    color: #181818;
+    
+}
+.social-btn:hover i{
+    font-size: 1.3rem;
+}
+.social-btn i{
+    font-size: 1.3rem;
+}
+/*footer*/
+.footer{
+    padding-top: 50px;
+}
+.footer h3{
+    font-family: "Roboto";
+    font-size: 19px;
+    font-weight: normal;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+.store-links li{
+    font-family: "Roboto Light";
+    font-size: 14px;
+    color: #777777;
+    padding: .6rem 0;
+}
+.store-links li:hover{
+    color: red;
+}
+.store-links li:first-child{
+    border-top: none;
+}
+
+
+
+
+.store-info{
+    border-left: 1px solid #e0e0e0;
+}
+.store-info a i{
+    color: black;
+
+}
+.store-info a{
+    color: red;
+    font-family: "Roboto Light";
+    font-size: 34px;
+    font-weight: lighter;
+
+}
+.store-info p{
+    font-family: "Roboto Light";
+    font-size: 14px;
+    font-weight: lighter;
+    color: #777777;
+}
+.store-info p.call-us-now{
+    font-family: "Roboto" ;
+    font-weight: normal ;
+    color: #333333 ;
+}
+
+
+
+
+
+
+
+/*coypright*/
+.copyright{
+    margin-top: 50px;
+}
+.copyright p{
+    line-height: 2em;
+    font-family: "Roboto Light";
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.copyright .container{
+    border-top: 2px solid #e0e0e0;
+}

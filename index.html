@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tienda de Ropa</title>
+    <link rel="stylesheet" href="./css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/iconos.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <script src="./js/jquery-3.3.1.slim.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container header">
+            <div class="row">
+                <div class="col-lg-4"><div class="logo">
+                    <a href="">cl<span class="ored">o</span>thes</a>
+                    <p class="slogan">The biggest choice on the web</p>
+                </div></div>
+                <div class="col-lg-4 centro">
+                        <ul class="opciones">
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">English</a></li>
+                            <li><a href="">Currency : USD</a></li>
+                        </ul>
+                        <div class="input-group">
+                            
+
+                            <input type="text" class="form-control" id="inlineFormInputGroupUsername">
+                            <div class="input-group-append">
+                                    <div class="input-group-text"><span>
+                                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            width="20" height="20" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve">
+                                       <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23
+                                           s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92
+                                           c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17
+                                           s-17-7.626-17-17S14.61,6,23.984,6z"/></svg>
+                                    </span></div>
+                                </div>
+                        </div>
+                </div>
+                <div class="col-lg-4 tienda">
+                    <div class="ultima">
+                        <div class="login">
+                            <a href="" class="sign-in">Sign in  <span>
+                                    <svg version="1.1" id="sign-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="12px" height="12px" viewBox="0 0 401.998 401.998" style="enable-background:new 0 0 401.998 401.998;"
+                                    xml:space="preserve">
+                               <g>
+                                   <path d="M357.45,190.721c-5.331-5.33-11.8-7.993-19.417-7.993h-9.131v-54.821c0-35.022-12.559-65.093-37.685-90.218
+                                       C266.093,12.563,236.025,0,200.998,0c-35.026,0-65.1,12.563-90.222,37.688C85.65,62.814,73.091,92.884,73.091,127.907v54.821
+                                       h-9.135c-7.611,0-14.084,2.663-19.414,7.993c-5.33,5.326-7.994,11.799-7.994,19.417V374.59c0,7.611,2.665,14.086,7.994,19.417
+                                       c5.33,5.325,11.803,7.991,19.414,7.991H338.04c7.617,0,14.085-2.663,19.417-7.991c5.325-5.331,7.994-11.806,7.994-19.417V210.135
+                                       C365.455,202.523,362.782,196.051,357.45,190.721z M274.087,182.728H127.909v-54.821c0-20.175,7.139-37.402,21.414-51.675
+                                       c14.277-14.275,31.501-21.411,51.678-21.411c20.179,0,37.399,7.135,51.677,21.411c14.271,14.272,21.409,31.5,21.409,51.675V182.728
+                                       z"/>
+                               </g>
+                               </svg>
+                            </span></a>
+                            <a href="" class="acc">Your account <span>
+                                    <svg version="1.1" id="user-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="12px" height="12px" viewBox="0 0 350 350" style="enable-background:new 0 0 350 350;" xml:space="preserve">
+                               <g>
+                                   <path d="M175,171.173c38.914,0,70.463-38.318,70.463-85.586C245.463,38.318,235.105,0,175,0s-70.465,38.318-70.465,85.587
+                                       C104.535,132.855,136.084,171.173,175,171.173z"/>
+                                   <path d="M41.909,301.853C41.897,298.971,41.885,301.041,41.909,301.853L41.909,301.853z"/>
+                                   <path d="M308.085,304.104C308.123,303.315,308.098,298.63,308.085,304.104L308.085,304.104z"/>
+                                   <path d="M307.935,298.397c-1.305-82.342-12.059-105.805-94.352-120.657c0,0-11.584,14.761-38.584,14.761
+                                       s-38.586-14.761-38.586-14.761c-81.395,14.69-92.803,37.805-94.303,117.982c-0.123,6.547-0.18,6.891-0.202,6.131
+                                       c0.005,1.424,0.011,4.058,0.011,8.651c0,0,19.592,39.496,133.08,39.496c113.486,0,133.08-39.496,133.08-39.496
+                                       c0-2.951,0.002-5.003,0.005-6.399C308.062,304.575,308.018,303.664,307.935,298.397z"/>
+                               </g>
+                               </svg>
+                            </span></a>
+                        </div>
+                        <div class="shop">
+                            <div class="compras-totales"> <p>0</p></div>
+                            <img src="./img/shop-bag.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row menu">
+            <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                          
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                              <ul class="navbar-nav mr-auto">
+                                <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    women
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                  </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    men
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                  </div>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">kids<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">lingerie<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">clearance<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">blog<span class="sr-only">(current)</span></a>
+                                </li>
+                              </ul>
+
+                            </div>
+                          </nav>
+            </div>
+        </div>
+        <div class="blank-space">
+
+        </div>
+        <!-- carousel   -->
+        <div class="row">
+
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="./img/carousel-1.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="title">clearance</h5>
+                        <h5 class="subtitle">-60%</h5>
+                        <p class="content">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio.</p>
+                        <a href="" class="btn">shop now!</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/carousel-2.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                            <h5 class="title">fashion</h5>
+                            <h5 class="subtitle">-30%</h5>
+                            <p class="content">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio.</p>
+                            <a href="" class="btn">shop now!</a>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/carousel-3.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                            <h5 class="title">Lingerie</h5>
+                            <h5 class="subtitle">-20%</h5>
+                            <p class="content">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio.</p>
+                            <a href="" class="btn">shop now!</a>
+                    </div>
+                  </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <!-- end carousel -->
+
+
+        
+
+        <!-- categorias -->
+
+        <div class="row bg categorias">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-4 cat">
+                        <div class="img-cont">
+                        <img src="./img/categorias-women.png" alt="" class="img-fluid">
+                        </div>
+                        <p class="title">Women</p>
+                        <p class="subtitle">clothing</p>
+                        <p class="content">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                    <div class="col-lg-4 cat">
+                            <div class="img-cont">
+                            <img src="./img/categorias-men.png" alt="" class="img-fluid">
+                            </div>
+                            <p class="title">Men</p>
+                            <p class="subtitle">clothing</p>
+                            
+                    </div>
+                    <div class="col-lg-4 cat">
+                            <div class="img-cont">
+                            <img src="./img/categorias-kids.png" alt="" class="img-fluid">
+                            </div>
+                            <p class="title">Kids</p>
+                            <p class="subtitle">clothing</p>
+                            <p class="content">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- end categorias -->
+
+
+        <!-- welcome -->
+        <div class="row bg welcome">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                    <p class="title">Welcome</p>
+                    <p class="subtitle">to our store!</p>
+                    <p class="content">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <a href="" class="btn">READ MORE</a>
+                </div>
+                </div>
+            </div>
+                    
+        </div>
+        <!-- end welcome -->
+
+        <!-- inventario -->
+        <div class="row inventario">
+            <div class="container">
+                <div class="row title">
+                    <div class="botones">
+                            <a href="" class="selected">New arrivals</a>
+                            <a href="">Popular</a>
+                            <a href="">Best Sellers</a>
+                    </div>
+                </div>
+                <div class="row productos">
+                    <div class="card-product">
+                        <div class="card-top">
+                            <div class="photo">
+                                <img src="./img/ropa-01.png" alt="">
+                                <a href="#" class="boton">Add to cart</a>
+                                <a href="#" class="more">More <span>&raquo</span></a>
+                                <div class="is-new">New!</div>
+                            </div>
+ 
+                        </div>
+                        <div class="card-price">
+                            <p class="desc">Lorem ipsum dolor sit amet</p>
+                            <p class="price-tag">$68.96</p>
+                        </div>
+                    </div>
+
+                    <div class="card-product">
+                        <div class="card-top">
+                            <div class="photo">
+                                <img src="./img/ropa-02.png" alt="">
+                                <a href="#" class="boton">Add to cart</a>
+                                <a href="#" class="more">More <span>&raquo</span></a>
+                                <div class="oferta">
+                                    <div class="sale">Sale!</div>
+                                    <p class="sale-desc">-20%</p>
+                                </div>
+                            </div>
+    
+                        </div>
+                        <div class="card-price">
+                            <p class="desc">Lorem ipsum dolor sit amet</p>
+                            <p class="price-tag">$68.96</p>
+                        </div>
+                    </div>
+
+                    <div class="card-product">
+                        <div class="card-top">
+                            <div class="photo">
+                                <img src="./img/ropa-03.png" alt="">
+                                <a href="#" class="boton">Add to cart</a>
+                                <a href="#" class="more">More <span>&raquo</span></a>
+                                <div class="is-new">New!</div>
+                            </div>
+    
+                        </div>
+                        <div class="card-price">
+                            <p class="desc">Lorem ipsum dolor sit amet</p>
+                            <p class="price-tag">$68.96</p>
+                        </div>
+                    </div>
+
+                    <div class="card-product">
+                        <div class="card-top">
+                            <div class="photo">
+                                <img src="./img/ropa-04.png" alt="">
+                                <a href="#" class="boton">Add to cart</a>
+                                <a href="#" class="more">More <span>&raquo</span></a>
+                                <div class="oferta">
+                                        <div class="sale">Sale!</div>
+                                        <p class="sale-desc">-20%</p>
+                                    </div>
+                            </div>
+    
+                        </div>
+                        <div class="card-price">
+                            <p class="desc">Lorem ipsum dolor sit amet</p>
+                            <p class="price-tag">$68.96</p>
+                        </div>
+                    </div>
+
+                    <div class="card-product">
+                        <div class="card-top">
+                            <div class="photo">
+                                <img src="./img/ropa-05.png" alt="">
+                                <a href="#" class="boton">Add to cart</a>
+                                <a href="#" class="more">More <span>&raquo</span></a>
+                                <div class="is-new">New!</div>
+                                <div class="oferta">
+                                        <div class="sale">Sale!</div>
+                                        <p class="sale-desc">-20%</p>
+                                </div>
+                            </div>
+    
+                        </div>
+                        <div class="card-price">
+                            <p class="desc">Lorem ipsum dolor sit amet</p>
+                            <p class="price-tag">$68.96</p>
+                        </div>
+                    </div>
+
+                    <div class="card-product">
+                        <div class="card-top">
+                            <div class="photo">
+                                <img src="./img/ropa-06.png" alt="">
+                                <a href="#" class="boton">Add to cart</a>
+                                <a href="#" class="more">More <span>&raquo</span></a>
+
+                            </div>
+    
+                        </div>
+                        <div class="card-price">
+                            <p class="desc">Lorem ipsum dolor sit amet</p>
+                            <p class="price-tag">$68.96</p>
+                        </div>
+                    </div>
+
+                    <div class="card-product">
+                        <div class="card-top">
+                            <div class="photo">
+                                <img src="./img/ropa-07.png" alt="">
+                                <a href="#" class="boton">Add to cart</a>
+                                <a href="#" class="more">More <span>&raquo</span></a>
+                                <div class="is-new">New!</div>
+                            </div>
+    
+                        </div>
+                        <div class="card-price">
+                            <p class="desc">Lorem ipsum dolor sit amet</p>
+                            <p class="price-tag">$68.96</p>
+                        </div>
+                    </div>
+
+                    <div class="card-product">
+                        <div class="card-top">
+                            <div class="photo">
+                                <img src="./img/ropa-08.png" alt="">
+                                <a href="#" class="boton">Add to cart</a>
+                                <a href="#" class="more">More <span>&raquo</span></a>
+
+                            </div>
+    
+                        </div>
+                        <div class="card-price">
+                            <p class="desc">Lorem ipsum dolor sit amet</p>
+                            <p class="price-tag">$68.96</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            
+            </div>
+        </div>
+        <!-- end inventario -->
+
+        <!-- compartir -->
+        <div class="row bg compartir">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 columna">
+                        <div class="circulo c-rojo">
+                            <div class="hand-like">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 50.798 50.798" style="enable-background:new 0 0 50.798 50.798;" xml:space="preserve">
+                                        <g>
+                                            <path d="M42.507,7.234H28.301v0.005H4.362v9.216c0,9.909,8.032,17.941,17.941,17.941c7.284,0,13.541-4.35,16.352-10.585h3.854     c4.57,0,8.289-3.718,8.289-8.289C50.797,10.951,47.078,7.234,42.507,7.234z M42.507,19.449h-2.532     c0.164-0.976,0.271-1.971,0.271-2.994v-4.859h2.263c2.165,0,3.927,1.761,3.927,3.926S44.672,19.449,42.507,19.449z" fill="#FFFFFF"/>
+                                            <path d="M3.453,42.073c0.502,0.823,1.69,1.49,2.654,1.49h32.392c0.964,0,2.151-0.667,2.653-1.49l3.455-5.659H0L3.453,42.073z" fill="#FFFFFF"/>
+                                        </g>
+                                </svg>                                   
+                            </div>
+                        </div>
+                        <div class="info">
+                            <p class="title">Lorem ipsum</p>
+                            <p class="subtitle">dolor sit</p>
+                            <p class="content">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 columna">
+                        <div class="circulo">
+                            <div class="hand-like">
+                                <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"   viewBox="0 0 475.099 475.099" style="enable-background:new 0 0 475.099 475.099;" xml:space="preserve">
+                                    <path d="M442.829,265.532c9.328-14.089,13.986-29.598,13.986-46.538c0-19.607-7.225-36.637-21.687-51.117   c-14.469-14.465-31.601-21.696-51.394-21.696h-50.251c9.134-18.842,13.709-37.117,13.709-54.816c0-22.271-3.34-39.971-9.996-53.105   c-6.663-13.138-16.372-22.795-29.126-28.984C295.313,3.09,280.947,0,264.959,0c-9.712,0-18.274,3.521-25.697,10.566   c-8.183,7.993-14.084,18.274-17.699,30.837c-3.617,12.559-6.521,24.6-8.708,36.116c-2.187,11.515-5.569,19.652-10.135,24.41   c-9.329,10.088-19.511,22.273-30.551,36.547c-19.224,24.932-32.264,39.685-39.113,44.255H54.828   c-10.088,0-18.702,3.574-25.84,10.706c-7.135,7.139-10.705,15.752-10.705,25.841v182.723c0,10.089,3.566,18.699,10.705,25.838   c7.142,7.139,15.752,10.711,25.84,10.711h82.221c4.188,0,17.319,3.806,39.399,11.42c23.413,8.186,44.017,14.418,61.812,18.702   c17.797,4.284,35.832,6.427,54.106,6.427h26.545h10.284c26.836,0,48.438-7.666,64.809-22.99   c16.365-15.324,24.458-36.213,24.27-62.67c11.42-14.657,17.129-31.597,17.129-50.819c0-4.185-0.281-8.277-0.855-12.278   c7.23-12.748,10.854-26.453,10.854-41.11C445.399,278.379,444.544,271.809,442.829,265.532z M85.949,396.58   c-3.616,3.614-7.898,5.428-12.847,5.428c-4.95,0-9.233-1.813-12.85-5.428c-3.615-3.613-5.424-7.897-5.424-12.85   c0-4.948,1.805-9.229,5.424-12.847c3.621-3.617,7.9-5.425,12.85-5.425c4.949,0,9.231,1.808,12.847,5.425   c3.617,3.617,5.426,7.898,5.426,12.847C91.375,388.683,89.566,392.967,85.949,396.58z M414.145,242.419   c-4.093,8.754-9.186,13.227-15.276,13.415c2.854,3.237,5.235,7.762,7.139,13.562c1.902,5.807,2.847,11.087,2.847,15.848   c0,13.127-5.037,24.455-15.126,33.969c3.43,6.088,5.141,12.658,5.141,19.697c0,7.043-1.663,14.038-4.996,20.984   c-3.327,6.94-7.851,11.938-13.559,14.982c0.951,5.709,1.423,11.04,1.423,15.988c0,31.785-18.274,47.678-54.823,47.678h-34.536   c-24.94,0-57.483-6.943-97.648-20.841c-0.953-0.38-3.709-1.383-8.28-2.998s-7.948-2.806-10.138-3.565   c-2.19-0.767-5.518-1.861-9.994-3.285c-4.475-1.431-8.087-2.479-10.849-3.142c-2.758-0.664-5.901-1.283-9.419-1.855   c-3.52-0.571-6.519-0.855-8.993-0.855h-9.136V219.285h9.136c3.045,0,6.423-0.859,10.135-2.568c3.711-1.714,7.52-4.283,11.421-7.71   c3.903-3.427,7.564-6.805,10.992-10.138c3.427-3.33,7.233-7.517,11.422-12.559c4.187-5.046,7.47-9.089,9.851-12.135   c2.378-3.045,5.375-6.949,8.992-11.707c3.615-4.757,5.806-7.613,6.567-8.566c10.467-12.941,17.795-21.601,21.982-25.981   c7.804-8.182,13.466-18.603,16.987-31.261c3.525-12.66,6.427-24.604,8.703-35.832c2.282-11.229,5.903-19.321,10.858-24.27   c18.268,0,30.453,4.471,36.542,13.418c6.088,8.945,9.134,22.746,9.134,41.399c0,11.229-4.572,26.503-13.71,45.821   c-9.134,19.32-13.698,34.5-13.698,45.539h100.495c9.527,0,17.993,3.662,25.413,10.994c7.426,7.327,11.143,15.843,11.143,25.553   C420.284,225.943,418.237,233.653,414.145,242.419z" fill="#FFFFFF"/>    
+                                </svg>                                    
+                            </div>
+                        </div>
+                        <div class="info">
+                                <p class="title">Excepteur</p>
+                                <p class="subtitle">sint occaecat</p>
+                                <p class="content">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- end compartir -->
+
+        <!-- blog -->
+        <div class="row bg blog">
+            <div class="container">
+                <div class="row">
+                    <h3>OUR <span class="bold">BLOG</span></h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6"><img src="./img/blog_pareja.png" alt="" class="img-fluid"></div>
+                    <div class="col-lg-6">
+                        <p class="date">24/06/2014</p>
+                        <p class="title">Lorem ipsum dolor sit amet conse ctetur adipisicing</p>
+                        <p class="content">
+                                Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                        </p>
+                        <p class="comments"><i class="icon-comment"></i> 25</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="date">24/06/2014</p>
+                        <p class="title">Excepteur sint occaecat cupidatat non proident</p>
+                        <p class="content">
+                                Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                        </p>
+                        <p class="comments"><i class="icon-comment"></i> 25</p>
+                    </div>
+                    <div class="col-lg-6"><img src="./img/blog_familia.png" alt="" class="img-fluid"></div>
+                </div>
+            </div>
+
+        </div>
+        <!-- end blog -->
+
+
+        <!-- news -->
+        <div class="row bg news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="rojo">
+                                <p id="news-clearance">clearance</p>
+                                <p class="promo">save 20%</p>
+                                <p class="texto">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididun.</p>
+                        </div>
+  
+
+                    </div>
+                    <div class="col-lg-4 ">
+                            <div class="blanco">
+                                    <p id="news-new">new</p>
+                                    <p class="promo">arrivals</p>
+                                    <p class="texto">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididun.</p>
+                            </div>
+                        
+                    </div>
+                    <div class="col-lg-4">
+                            <div class="negro">
+                                    <p id="news-free">free</p>
+                                    <p class="promo">shipping</p>
+                                    <p class="texto">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididun.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- end news -->
+
+
+        <!-- redes -->
+        <div class="row redes">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                    <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="correo" >
+                                            <span class="input-group-addon" id="basic-addon2">
+                                                    <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30"><path fill="#000" d="M11 21.212L17.35 15 11 8.65l1.932-1.932L21.215 15l-8.282 8.282L11 21.212z"></path></svg>
+                                            </span>
+                                          </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+
+                        <div class="socials">
+                            <p>Follow Us</p>
+                            <div class="social-btn">
+                                <span><i class="icon-facebook"></i></span>
+                            </div>
+                            <div class="social-btn">
+                                <span><i class="icon-twitter"></i></span>
+                            </div>
+                            <div class="social-btn"> 
+                                <span ><i class="icon-rss"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- end redes -->
+
+
+        <!-- footer -->
+        <div class="row footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 store-links">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <h3>Categories</h3>
+                                <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Women</li>
+                                        <li class="list-group-item">Men</li>
+                                        <li class="list-group-item">Kids</li>
+                                        <li class="list-group-item">Lingerie</li>
+                                        <li class="list-group-item">Clearance</li>
+                                        <li class="list-group-item">New</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <h3>Information</h3>
+                                <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Specials</li>
+                                        <li class="list-group-item">New products</li>
+                                        <li class="list-group-item">Best sellers</li>
+                                        <li class="list-group-item">Our stores</li>
+                                        <li class="list-group-item">Contact us</li>
+                                        <li class="list-group-item">Terms and conditions of use</li>
+                                        <li class="list-group-item">About us</li>
+                                        <li class="list-group-item">Sitemap</li>
+                                </ul>
+
+                            </div>
+                            <div class="col-lg-3">
+                                <h3>My account</h3>
+                                <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">My orders</li>
+                                        <li class="list-group-item">My merchandise returns</li>
+                                        <li class="list-group-item">My credit slips</li>
+                                        <li class="list-group-item">My addresses</li>
+                                        <li class="list-group-item">My personal info</li>
+                                </ul>
+
+                            </div>
+                            <div class="col-lg-3"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 store-info">
+                        <h3>Store information</h3>
+                        <p>My Company, 42 avenue des Champs 
+                           Elysées 75000 Paris France</p>
+                        <p class="call-us-now">Call us now toll free:</p>
+                        <a href=""><i class="icon-phone"></i>0123-456-789</a>
+                        <p>Email: info@demolink.org</p>                        
+                    
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+        <!-- end footer -->
+
+        <!-- copyright -->
+        <div class="row copyright">
+            <div class="container">
+                <p>	&copy; 2014 Ecommerce software by PrestaShop&trade; </p>
+            </div>
+        </div>
+        <!-- end copyright -->
+    </div>
+
+
+
+
+    <script>
+        $('.carousel').carousel({
+            interval: 3500
+        })
+    </script>
+    
+</body>
+</html>
